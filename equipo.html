@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Matías Ferrer">
+	<title>Equipo</title>
+    <script src="https://kit.fontawesome.com/e81d771d06.js" crossorigin="anonymous" defer></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+    <link href="css/section-styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="frame">
+
+        <div class="navbar">
+            <div class="navbar__left">
+                <button class="navbar__btn navbar__btn--home">
+                    <span class="navbar__icon navbar__icon--home fa-solid fa-home-alt"></span>
+                </button>
+                <div class="navbar__divider"></div>
+                <div class="navbar__company-avatar">
+                    <img class="navbar__company-img" src="assets/img/dh-avatar.png" alt="Símbolo de la organización que brinda el curso">
+                </div>
+                <nav class="navbar__menu">
+                    <a href="#/" class="navbar__item">
+                        <span class="navbar__label">Aula</span>
+                        <span class="navbar__bottom-bar"></span>
+                    </a>
+                    <a href="equipo.html" class="navbar__item">
+                        <span class="navbar__label navbar__label--active">Equipo</span>
+                        <span class="navbar__bottom-bar navbar__bottom-bar--active"></span>
+                    </a>
+                    <a href="#/" class="navbar__item">
+                        <span class="navbar__label">Reportes</span>
+                        <span class="navbar__bottom-bar"></span>
+                    </a>
+                    <a href="#/" class="navbar__item">
+                        <span class="navbar__label">Ajustes</span>
+                        <span class="navbar__bottom-bar"></span>
+                    </a>
+                </nav>  
+            </div>
+            <div class="navbar__right">
+                <div class="navbar__date">
+                    <span class="navbar__icon navbar__icon--calendar fa-solid fa-calendar"></span>
+                    <span class="navbar__text">Jueves, 20 de enero de 2022.</span>
+                </div>
+                <button class="navbar__btn navbar__btn--bell">
+                    <div class="navbar__alert"></div>
+                    <span class="navbar__icon navbar__icon--bell fa-solid fa-bell"></span>
+                </button>
+                <button class="navbar__btn navbar__btn--user-avatar">
+                    <div class="navbar__user-avatar"></div>
+                </button>
+            </div> 
+        </div>
+    
+        <div class="page">
+
+            <header class="header">
+                <h2 class="header__title">Curso de Marketing Digital</h2>
+                <button class="header__btn header__btn--meet">
+                    <span class="header__icon header__icon--meet fa-solid fa-video"></span>
+                    <span class="header__label header__label--meet">Encuentro virtual</span>
+                </button>
+                <button class="header__btn header__btn--rotate">
+                    <span class="header__icon header__icon--rotate fa-solid fa-sync"></span>
+                    <span class="header__label header__label--rotate">Rotar participantes</span>
+                </button>
+            </header>
+            <div class="section-marker">
+                <div class="section-marker__info">
+                    <h3 class="section-marker__title">Equipo</h3>
+                    <span class="section-marker__amount">573 participantes</span>
+                </div>
+                <div class="section-marker__utilities">
+                    <button class="section-marker__btn">
+                        <span class="section-marker__icon section-marker__icon--plus fa-solid fa-plus"></span>
+                        <span class="section-marker__label">Invitar participantes</span>
+                    </button>
+                    <div class="section-marker__divider"></div>
+                    <button class="section-marker__btn">
+                        <span class="section-marker__icon section-marker__icon--download fa-solid fa-file-download"></span>
+                        <span class="section-marker__label">Descargar reporte</span>
+                    </button>
+                </div>
+            </div>
+            <div class="attendance-metter">
+                <div class="attendance-metter__header">
+                    <h4 class="attendance-metter__title">Asistencia del día</h4>
+                    <div class="attendance-metter__info">
+                        Última rotación hace 3 días, el 17/01/2022 a las 14:16 h.
+                        <span class="attendance-metter__info--bolder">110 rotaciones acumuladas.</span>
+                    </div>
+                </div>
+                <div class="attendance-metter__widgets">
+                    <div class="attendance-metter__widget">
+                        <div class="attendance-metter__icon">
+                            <span class="attendance-metter__icon--ontime fa-solid fa-user-check"></span>
+                        </div>
+                        <div class="attendance-metter__counter">
+                            <span class="attendance-metter__amount">543</span>
+                            <span class="attendance-metter__label">Presentes</span>
+                        </div>
+                    </div>
+                    <div class="attendance-metter__widget">
+                        <div class="attendance-metter__icon">
+                            <span class="attendance-metter__icon--late fa-solid fa-user-clock"></span>
+                        </div>
+                        <div class="attendance-metter__counter">
+                            <span class="attendance-metter__amount">9</span>
+                            <span class="attendance-metter__label">Tardanzas</span>
+                        </div>
+                    </div>
+                    <div class="attendance-metter__widget">
+                        <div class="attendance-metter__icon">
+                            <span class="attendance-metter__icon--absent fa-solid fa-user-slash"></span>
+                        </div>
+                        <div class="attendance-metter__counter">
+                            <span class="attendance-metter__amount">21</span>
+                            <span class="attendance-metter__label">Ausentes</span>
+                        </div>
+                    </div>
+                    <button class="attendance-metter__btn">
+                        <span class="attendance-metter__icon attendance-metter__icon--refresh fa-regular fa-redo-alt"></span>
+                        <span class="attendance-metter__label">Actualizar</span>
+                    </button>
+                </div>
+            </div>
+            <div class="search-and-switch">
+                <div class="search-bar">
+                    <button class="search-bar__selector">
+                        <span class="search-bar__label">Personas</span>
+                        <span class="search-bar__icon search-bar__icon--selector fa-solid fa-caret-down"></span>
+                    </button>
+                    <div class="search-bar__divider"></div>
+                    <div class="search-bar__field">
+                        <input class="search-bar__input" type="search" name="team-section-search" id="team-section-search" placeholder="Busca personas por nombre o apellido">
+                        <button class="search-bar__btn search-bar__btn--history">
+                            <span class="search-bar__icon search-bar__icon--history fa-solid fa-caret-down"></span>
+                        </button>
+                    </div>
+                    <button class="search-bar__btn search-bar__btn--search">
+                        <span class="search-bar__icon search-bar__icon--search fa-solid fa-search"></span> 
+                    </button>
+                    <div class="search-bar__dropdown-panel search-bar__dropdown-panel--search-mode hidden">
+                        <button class="search-bar__btn search-bar__btn--mode search-bar__btn--mode--active">Personas</button>
+                        <button class="search-bar__btn search-bar__btn--mode">Equipos</button>
+                    </div>
+                    <div class="search-bar__dropdown-panel search-bar__dropdown-panel--search-history hidden">
+                        <h3 class="search-bar__title">Buscaste recientemente</h3>
+                        <div class="search-bar__history">
+                            <button class="search-bar__btn search-bar__btn--history-item">Valeria Sofía Redondo</button>
+                            <button class="search-bar__btn search-bar__btn--history-item">Claudio Gonzáles</button>
+                            <button class="search-bar__btn search-bar__btn--history-item">Rodrigo Ribolsi</button>
+                            <button class="search-bar__btn search-bar__btn--history-item">María Julieta Villanueva</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="switcher">
+                    <button class="switcher__btn switcher__btn--active">Asistencia</button>
+                    <div class="switcher__divider"></div>
+                    <button class="switcher__btn">Observaciones</button>
+                    <div class="switcher__divider"></div>
+                    <button class="switcher__btn">Rendimiento</button>
+                    <div class="switcher__divider"></div>
+                    <button class="switcher__btn">Reasignar</button>
+                </div>
+            </div>    
+        
+            <main class="work-groups">
+                <div class="work-groups__card">
+                    <div class="work-groups__header">
+                        <div class="work-groups__info">
+                            <h3 class="work-groups__title">Grupo de trabajo 1</h3>
+                            <h5 class="work-groups__amount">8 integrantes</h5>
+                        </div>
+                        <div class="work-groups__actions">
+                            <button class="work-groups__btn">
+                                <span class="work-groups__icon fa-solid fa-heart"></span>
+                            </button>
+                            <button class="work-groups__btn">
+                                <span class="work-groups__icon fa-solid fa-video"></span>
+                            </button>
+                            <button class="work-groups__btn">
+                                <span class="work-groups__icon fa-solid fa-ellipsis-h"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="work-groups__content">
+                        <div class="work-groups__students">
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=60" alt="student avatar image">
+                            </figure>
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=45" alt="student avatar image">
+                            </figure>
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=15" alt="student avatar image">
+                            </figure>
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=12" alt="student avatar image">
+                            </figure>
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=52" alt="student avatar image">
+                            </figure>
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=59" alt="student avatar image">
+                            </figure>
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=7" alt="student avatar image">
+                            </figure>
+                            <figure class="work-groups__student">
+                                <img class="work-groups__avatar" src="https://i.pravatar.cc/60?img=41" alt="student avatar image">
+                            </figure>
+                        </div>
+                        <div class="work-groups__actions">
+                            <button class="work-groups__btn">
+                                <span class="work-groups__icon fa-solid fa-chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-groups__card"></div>
+                <div class="work-groups__card"></div>
+                <div class="work-groups__card"></div>
+                <div class="work-groups__card"></div>
+                <div class="work-groups__card"></div>
+                <div class="work-groups__card"></div>
+                <div class="work-groups__card"></div>
+                <div class="work-groups__card"></div>
+            </main>  
+
+        </div>
+
+    </div>
+
+    <div class="dialog dialog--rotate hidden">
+        <div class="dialog__body">
+            <div class="dialog__header">
+                <div class="dialog__title">
+                    <h4>Rotar participantes</h4>
+                </div>
+            </div>
+            <div class="dialog__content">
+                <p class="dialog__text">
+                    Al rotar a los participantes se generarán nuevos grupos de trabajo con nuevos facilitadores. 
+                    <span class="dialog__text--question">
+                        ¿Deseas rotar a los participantes?
+                    </span>
+                </p>
+            </div>
+            <div class="dialog__footer">
+                <div class="dialog__option">
+                    <span class="dialog__icon dialog__icon--checkbox fa-regular fa-square"></span>
+                    <span class="dialog__label">No volver a mostrar</span>
+                </div>
+                <div class="dialog__actions">
+                    <button class="dialog__btn dialog__btn--secondary">No</button>
+                    <button class="dialog__btn dialog__btn--primary">Sí</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay overlay--rotate hidden">
+        <div class="overlay__content">
+            <div class="overlay__progress">
+                <div class="overlay__step overlay__step--1">
+                    <div class="overlay__progress-bar overlay__progress-bar--1"></div>
+                </div> 
+                <div class="overlay__step overlay__step--2">
+                    <div class="overlay__progress-bar overlay__progress-bar--2"></div>
+                </div>
+            </div>
+            <div class="overlay__text">
+                <h3 class="overlay__text--1">Analizando la red de cooperación</h3>
+                <h3 class="overlay__text--2 hidden">Creando grupos de trabajo optimizados</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast toast--success">
+        <div class="toast__body toast__body--success">
+            <div class="toast__badge toast__badge--success">
+                <span class="toast__icon toast__icon--success fa-solid fa-rotate"></span>
+            </div>
+            <div class="toast__text">
+                <span class="toast__text--primary">Rotaste 543 participantes y se crearon 71 equipos</span>
+            </div>
+            <div class="toast__close toast__close--success">
+                <button class="toast__btn toast__btn--close">
+                    <span class="toast__icon--close fa-regular fa-times"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="message">
+        Ingresa desde desktop
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
