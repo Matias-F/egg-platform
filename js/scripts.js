@@ -110,19 +110,6 @@ document.querySelectorAll('.toast__btn--close').forEach(function(element){
 })
 
 
-let topPosition = searchAndSwitch.offsetTop - 70; 
-/* substract (70px) wich is frame (50) and search-and-switch (20) padding top to prevent overlapping with the fixed navbar */
-const stickySearchOnScroll =
-function() {
-    if (window.scrollY >= topPosition) {    
-        searchAndSwitch.classList.add('search-and-switch--sticky')
-    } else {
-        searchAndSwitch.classList.remove('search-and-switch--sticky')   
-    }
-}
-window.addEventListener('scroll', stickySearchOnScroll)
-
-
 const toggleSearchModeDropdown = 
 function() {   
     searchModePanel.classList.toggle('hidden')

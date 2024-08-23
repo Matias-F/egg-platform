@@ -562,19 +562,12 @@ button {
 
 .search-and-switch {
     width: 100%;
+    position: sticky;
+    top: 66px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.search-and-switch--sticky {
-    width: 100%;
-    position: fixed;
-    top: 50px;
-    left: 0;
-    padding: 20px 80px 30px 80px;
-    background: var(--c-gray-50); /* solid bg fallback */
-    background: linear-gradient(180deg, var(--c-gray-50) 0%, var(--c-gray-50) 50%, transparent 100%);
+    background-color: #ffffff;
 }
 
 .search-bar {
